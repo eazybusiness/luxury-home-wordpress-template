@@ -1,0 +1,18 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Node / build artifacts
+node_modules/
+dist/
+build/
+
+# WordPress theme archives
+wordpress/*.zip
