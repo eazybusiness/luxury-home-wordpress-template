@@ -11,6 +11,16 @@ A luxury real estate website inspired by Japanese bonsai philosophy, featuring d
 - RTL‑ready, translation‑ready front-end for English/Arabic experiences.
 - Modern front-end techniques: smooth scrolling, IntersectionObserver animations, lightbox, and lazy-loaded imagery.
 
+## How I built this
+
+1. Started from a single-page marketing concept for a luxury real estate brand and designed the layout in plain HTML, CSS, and vanilla JavaScript.
+2. Iterated on a mobile‑first layout with responsive grids, smooth scrolling, and scroll‑based animations to keep the experience lightweight but premium.
+3. Extracted visual design tokens (colors, spacing, typography) into CSS variables so the theme could be easily re‑skinned.
+4. Converted the static page into a WordPress theme by splitting the layout into `header.php`, `index.php`, and `footer.php`, and wiring everything through `functions.php`.
+5. Added custom post types for Projects and Gallery so real content can be managed from the WordPress admin instead of hard‑coding cards.
+6. Implemented WordPress Customizer options for hero copy, section texts, colors, SEO meta, social links, and contact settings.
+7. Integrated Contact Form 7 with a fallback PHP form handler, plus hooks for reCAPTCHA and Google Analytics.
+
 ## Features
 
 - ✅ **Responsive Design**: Mobile-first approach with desktop optimization
